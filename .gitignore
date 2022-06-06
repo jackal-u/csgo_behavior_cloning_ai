@@ -1,6 +1,8 @@
 # 忽略 文件夹
 .idea
 test
+test*
+test.txt
 test.py
 cifar
 data.7z

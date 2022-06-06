@@ -1,6 +1,10 @@
 # 读取当前的视频数据，并为之匹配label
 import os, re
-
+"""
+this script reads the video file in ./data folder and find matching label in ./labels folder 
+eventually, it generate csv file for the trainig model.
+we recommand you to write some new rules to keep only CT/T in csv, traning separate model for them.
+"""
 
 files = os.listdir(r"./data")
 meta_list = []
