@@ -1,0 +1,5 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+!g151-c-20220402212855368210429_de_dust2_round1_t_tick_1159_8945_player_76561198146323670.mp4

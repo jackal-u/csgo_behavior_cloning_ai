@@ -1,0 +1,13 @@
+# 忽略 文件夹
+.idea
+test
+test.py
+cifar
+data.7z
+labels.zip
+meta2.csv
+# 忽略 doc/notes.txt, 不包括 doc/server/arch.txt
+doc/*.txt
+*.pkl
+*.py
+__pycache__
