@@ -8,7 +8,7 @@ with that, we believe we can get cleaner data on larger scale and conquer csgo c
 
 
 
-## 1 min run
+## 1 min startup for training your agent
 
 - get the [dataset](https://www.kaggle.com/datasets/kissjonh/csgo-competitive-dataset) on kaggle, unzip it in you project root.
 - python train.py -name ./net_20.pkl -lr 0.0011 -epoch 1000 -batch 50
@@ -16,6 +16,14 @@ with that, we believe we can get cleaner data on larger scale and conquer csgo c
   - lr:  because we use adamw optimizer, it's useless. change the code if you need it.
   - epoch: epoch number you want to run
   - batch: the batch size.
+
+## 1 min startup for agent field test(run in game)
+
+- put your model in game folder, change model path in run_agent.py
+- start csgo, type sv_cheats 1; cl_draw_only_deathnotices 1; host_timescale 0.xx; in console (it depends on your pc, just make sure it runs 16 per second)
+- python run_agent.py and you are ready to go.
+
+
 
 ## model description
 

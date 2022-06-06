@@ -9,5 +9,6 @@ meta2.csv
 # 忽略 doc/notes.txt, 不包括 doc/server/arch.txt
 doc/*.txt
 *.pkl
+!net_120.pkl
 *.py
 __pycache__
